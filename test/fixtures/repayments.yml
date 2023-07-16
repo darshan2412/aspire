@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one:
+  id: 1
+  loan_id: 1
+  amount: 3333.33
+  scheduled_on: '2023-07-23'
+
+two:
+  id: 2
+  loan_id: 1
+  amount: 3333.33
+  scheduled_on: '2023-07-30'
+
+three:
+  id: 3
+  loan_id: 1
+  amount: 3333.33
+  scheduled_on: '2023-07-30'
