@@ -20,3 +20,10 @@ After this, we should be able to hit the APIs in development environment
 docker compose run app rake db:migrate RAILS_ENV=test
 ```
 After this, we should be able to run tests
+
+To login to database using any external agent, we can use the below credentials:
+
+host: 0.0.0.0<br />
+port: 5432<br />
+username: darshan<br />
+password: password
